@@ -237,7 +237,7 @@ function blink(){
 
 
 let controls = [];
-controls.push(new projecto ("Tire & Wheel Conveyor @Ford HSAP","src/images/window_image.png","<p>2019</p><br> During the Christmas shutdown at HSAP Finnal Assembly Plant my team was designited for the controls startup of the new tire and wheel conveyor. This new conveor was installed to be able to install the tires in the new Ford model (CX-430 Project). This Line was controlled by a <span class='blue_text'>GuardLogix 5570</span> running more than 30 motors via <span class='blue_text'>MOVIFIT®</span>, for the different accumulation belts segments. "));
+controls.push(new projecto ("Tire & Wheel Conveyor @Ford HSAP","src/images/controls1.png","<p>2019</p><br> During the Christmas shutdown at HSAP Finnal Assembly Plant my team was designited for the controls startup of the new tire and wheel conveyor. This new conveor was installed to be able to install the tires in the new Ford model (CX-430 Project). This Line was controlled by a <span class='blue_text'>GuardLogix 5570</span> running more than 30 motors via <span class='blue_text'>MOVIFIT®</span>, for the different accumulation belts segments. "));
 controls.push(new projecto ("CX-430 @Ford HSAP","src/images/controls2.png","<p>2019</p><br> In the summer shutdown. As controls team we were designated to update many conveyors and stations around the HSAP Finnal Assembly Plant. This included:<br> <ul> <li>Fascias new conveyor segment</li> <li>New Shuttle System</li>  <li>New IP Friction Drive System</li> <li>New stop at Fork tranfer:</li> <li>New stop at WOPR Cell</li> <li>Relocation Of End of travels at VDL</li> <li>New CAL1 conveyor system</li></ul> "
 
 ));
