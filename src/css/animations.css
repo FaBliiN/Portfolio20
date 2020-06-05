@@ -1,0 +1,179 @@
+@keyframes load {
+    0%   {opacity: 0; transform: translateY(-100px);}
+    50%  {opacity: .0;}
+    100% {opacity: 1; transform: translateY(0px);}
+  }
+
+@keyframes aboutLoad {
+    0%   {opacity: 0;}
+    70%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes dissolve {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes moveUp {
+    0% {opacity: 0; margin-top: -100vh;}
+    60% {opacity: 0; margin-top: -50vh;  }
+    100% {opacity: 1; margin-top: 0; }
+}
+
+@keyframes zoom {
+    0%   {opacity: 1; transform: scale(1);}
+    40% {opacity: 0; transform: scale(10);}
+    100% {opacity: 0; transform: scale(10);} 
+}
+
+
+
+@keyframes scale05{
+    0% {transform: scale(1); opacity: .3;}
+    100% {transform: scale(1.05); opacity: .8;}
+}
+
+@keyframes additive{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes shine {
+0% {
+    color: #6b1839;
+    text-shadow: none;
+}
+100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #218df1, 0 0 1.5rem #23d2fd,
+    -0.2rem 0.1rem 1rem #65e8ff, 0.2rem 0.1rem 1rem #65edff,
+    0 -0.5rem 2rem #2495ff, 0 0.5rem 3rem #24deff;
+}
+}
+
+@keyframes flicker {
+from {
+    opacity: 1;
+}
+
+4% {
+    opacity: 0.9;
+}
+
+6% {
+    opacity: 0.85;
+}
+
+8% {
+    opacity: 0.95;
+}
+
+10% {
+    opacity: 0.9;
+}
+
+11% {
+    opacity: 0.922;
+}
+
+12% {
+    opacity: 0.9;
+}
+
+14% {
+    opacity: 0.95;
+}
+
+16% {
+    opacity: 0.98;
+}
+
+17% {
+    opacity: 0.9;
+}
+
+19% {
+    opacity: 0.93;
+}
+
+20% {
+    opacity: 0.99;
+}
+
+24% {
+    opacity: 1;
+}
+
+26% {
+    opacity: 0.94;
+}
+
+28% {
+    opacity: 0.98;
+}
+
+37% {
+    opacity: 0.93;
+}
+
+38% {
+    opacity: 0.5;
+}
+
+39% {
+    opacity: 0.96;
+}
+
+42% {
+    opacity: 1;
+}
+
+44% {
+    opacity: 0.97;
+}
+
+46% {
+    opacity: 0.94;
+}
+
+56% {
+    opacity: 0.9;
+}
+
+58% {
+    opacity: 0.9;
+}
+
+60% {
+    opacity: 0.99;
+}
+
+68% {
+    opacity: 1;
+}
+
+70% {
+    opacity: 0.9;
+}
+
+72% {
+    opacity: 0.95;
+}
+
+93% {
+    opacity: 0.93;
+}
+
+95% {
+    opacity: 0.95;
+}
+
+97% {
+    opacity: 0.93;
+}
+
+to {
+    opacity: 1;
+}
+}

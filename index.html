@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en" id="html" class="">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/5edcfbc779.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/animations.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/mediaquery.css">
+    <title>Pablo Sanchez</title>
+</head>
+
+<header id="header">
+
+    <img class="background" src="src/images/background.jpg" alt="">
+
+    <a href="" id="header_name" class="header_name">
+        <img src="src/images/lentes.png" alt="">
+        <span class="header_name-nombre">Pablo Sanchez</span>
+    </a>
+
+
+
+</header>
+
+<body>
+
+
+    <div id="aboutContainer" class="aboutContainer">
+        <button id="aboutMeAnimation" class="aboutMeAnimation" href="">ABOUT ME</button>
+    </div>
+
+    <div id="hero_container" class="hero_container">
+        <img class="body_hero" src="src/images/hero.jpg">
+    </div>
+
+    <i id="menu_button_header" class="fas fa-bars menu_button_header section_pojects_window_buttons hide"></i>
+
+    
+    <div id="header2" class="header2 hide">
+
+        <a href=""  class="header_name">
+            <img src="src/images/lentes.png" alt="">
+            <span class="header_name-nombre">Pablo Sanchez</span>
+        </a>
+
+        <nav id="header_menu" class="header_menu">
+            <a id="aboutmeBtn" class="header_menu_buttons" href="#section_aboutMe">ABOUT ME</a>
+            <a id="experienceBtn" class="header_menu_buttons" href="#section_projects">EXPERIENCE</a>
+            <a id=skillsBtn class="header_menu_buttons" href="#section_skills">SKILLS</a>
+            <a id="contactBtn" class="header_menu_buttons" href="#letswork_text">CONTACT</a>
+            <a id="resumeBtn" target="_Blank" href="src/resume.pdf">RESUME</a>
+
+        </nav>
+        
+        <i id="close_button_header" class="far fa-times-circle close_button_header section_pojects_window_buttons"></i>
+
+    </div>
+
+
+    <section id="section_aboutMe" class="section_aboutMe hide">
+        <div class="section_aboutMe_grid">
+            <img class="foto_perfil" src="src/images/foto_perfil.png">
+            <div class="section_aboutMe_grid_photo">
+
+            </div>
+            <div class="section_aboutMe_grid_descripction">
+                <p>Hello my name is <span class="blue_text">Pablo</span> and im an engineer.</p> <br>
+                For more than 3 years I've been developing projects in the automovile industry for leading sector companies as <span class="blue_text">Ford</span>,  <span class="blue_text">General Motors</span> and  <span class="blue_text">Chrysler</span>. Creating engineering solutions for increasing the productivity at different plants around North America using automatization technology as <span class="blue_text">Machine Vision Systems</span>, <span class="blue_text">PLC's</span> and <span class="blue_text">Cobots</span>. I've been trough many challenging projects, let me tell you more about my favorite ones.
+            </div>
+            <div class="section_aboutMe_grid_logos">
+                <img src="src/images/ford.png" alt="ford logo">
+                <img src="src/images/gm.png" alt="gm logo">
+                <img src="src/images/fca.png" alt="fca logo">
+            </div>
+        </div>
+    </section>
+
+    <img id="background" class="background hide" src="src/images/background.jpg" alt="">
+
+
+
+
+
+
+    <section id="section_projects" class="section_projects hide">
+        <div class="section_title"></div>
+        <h2 class="section_projects_projects_text">PROJECTS</h2>
+
+
+        <div class="section_projects_grid">
+            <div id="section_projects_grid_controls" class="section_projects_grid_controls projects_grid_item">
+                <p class="section_projects_title">CONTROLS</p>
+                <img class="projects_grid_image" src="src/images/controls.gif" alt="">
+            </div>
+            <div id="section_projects_grid_vision" class="section_projects_grid_controls projects_grid_item">
+                <P class="section_projects_title">VISION</P>
+                <img class="projects_grid_image" src="src/images/vision.gif" alt="">
+            </div>
+            <div id="section_projects_grid_cobots" class="section_projects_grid_controls projects_grid_item">
+                <P class="section_projects_title">COBOTS</P>
+                <img class="projects_grid_image" src="src/images/cobots.gif" alt="">
+            </div>
+        </div>
+
+
+            <div id="section_pojects_window" class="section_pojects_window hide">
+                <i id="close_button_projects" class="far fa-times-circle close_button section_pojects_window_buttons"></i>
+                <i id="arrow_left_button" class="fas fa-chevron-left arrow_left_button section_pojects_window_buttons arrow_button"></i>
+                <i id="arrow_right_button" class="fas fa-chevron-right arrow_right_button section_pojects_window_buttons arrow_button"></i>
+                <div id="circle_button_div" class="circle_button_div">
+
+                </div>
+
+                <p id="section_pojects_window_title" class="section_pojects_window_title">TITULO</p>
+                <img id="section_pojects_window_image" class="section_pojects_window_image" src="" alt="">
+                <p id="section_projects_window_description" class="section_projects_window_description"></p>
+            </div>
+
+
+    </section>
+
+
+
+    <section id="section_skills" class="section_skills hide">
+        <div class="section_title_right"></div>
+        <h2 class="section_projects_skills_text">SKILLS</h2>
+
+        <p class="section_skills_description">
+            During my profesional carrer I've developed many technical skills but more important the skills needed for deliver all my projects with a <span class="blue_text">100%</span> clients satisfaction. Even though there are still many things to learn here is what I've achived so far:
+        </p>
+
+        <div class="section_skills_buttons_L">
+            <button id="skills_controls_button" class="button_blue button_controls button_L" data-aos="fade-right">CONTROLS</button>
+            <button id="skills_vision_button" class="button_blue button_vision button_L " data-aos="fade-down">VISION</button>
+            
+
+
+        </div>
+        <div class="section_skills_buttons_M">
+            
+            <button id="skills_programming_button" class="button_blue button_cobots button_M " data-aos="fade-right">PROGRAMING</button>
+            <button id="skills_idioms_button" class="button_blue button_web button_M " data-aos="fade-up">IDIOMS</button>
+            
+
+
+        </div>
+
+        <div id="skills_controls_window" class="section_skills_window hide">
+            <i id="close_skills_controls" class="close_button_skills far fa-times-circle  section_skills_window_buttons"></i>
+
+            <div class="skills_controls_window_item1">
+                    <img src="src/images/rockwell.png" alt="">
+                    <ul><li>Ford NextGen Standar</li> <li>Studio 5000</li> <li>Factory Talk</li></ul>
+            </div>
+            <div class="skills_controls_window_item2">
+                    <img src="src/images/siemens.png" alt="">
+                    <ul><li>Ford FAST Standar</li> <li>Simatic Step7</li> </ul>
+            </div>
+
+        </div>
+
+
+        <div id="skills_vision_window" class="section_skills_window hide">
+            <i id="close_skills_vision" class="close_button_skills far fa-times-circle  section_skills_window_buttons"></i>
+
+            <div class="skills_vision_window_item1">
+                    <img src="src/images/cognex.jpg" alt="">
+                    <ul> <li>GM Cognex Template</li> <li>Vision Pro</li> <li>InSight Explorer</li> </ul>
+            </div>
+            <div class="skills_vision_window_item2">
+                    <img src="src/images/keyence.jpg" alt="">
+                    <ul><li>CV-X100</li></ul>
+            </div>
+
+            <a target="_Blank" href="https://www.visiononline.org/vision/aia-certification-programs"><img id="cvpBasic" src="src/images/cvp-basic.png" alt=""></a>
+
+        </div>
+
+
+        <div id="skills_programming_window" class="section_skills_programming_window hide">
+            <i id="close_skills_programming" class="close_button_skills far fa-times-circle  section_skills_window_buttons"></i>
+
+            <div class="skills_programming_window_item">
+                <img src="src/images/c++.png" alt="">
+                <p>C++</p>
+
+            </div>
+            <div class="skills_programming_window_item">
+                <img src="src/images/Csharp.png" alt="">
+                <p>C#</p>
+
+            </div>
+            <div class="skills_programming_window_item">
+                <img src="src/images/JS.png" alt="">
+                <p>Java Script</p>
+
+            </div>
+
+        </div>
+
+
+        <div id="skills_managment_window" class="section_skills_managment_window hide">
+            <i id="close_skills_managment" class="close_button_skills far fa-times-circle  section_skills_window_buttons"></i>
+            <p> My personal and work experience had taught that in order to achive the success of any project and give the client a good experience working with you, you need to plan ahead.</p> <br>
+
+            <p>That means, gather all the information needed to analyze the project propposal and decide whether it worth it to spend resources and time developing it and negociate the scope of the project. Once its aproved, devide task and responsabilities to create a team for developing it. Once they are working on it keep track on the task acomplishmet and be preaper that everything can happen, how to take the right desitions and be responsable for them. <P> <br>
+            Luckily in every difficult situation I've had. I've been supported by good relationships I developed not only with my engineer colleges but with anybody I had worked with. Because the succes of a project it always the result of good teamwork comunication.
+
+        </div>
+
+
+        <div id="skills_idioms_window" class="section_skills_programming_window hide">
+            <i id="close_skills_idioms" class="close_button_skills far fa-times-circle  section_skills_window_buttons"></i>
+
+            <div class="skills_idioms_window_item">
+                <img src="src/images/spanish.png" alt="">
+                <p>Spanish</p>
+            </div>
+            <div class="skills_idioms_window_item">
+                <img src="src/images/english.png" alt="">
+                <p>English</p>
+            </div>
+            <div class="skills_idioms_window_item">
+                <img src="src/images/japanese.png" alt="">
+                <p>Japanese</p>
+            </div>
+
+
+        </div>
+
+
+        <div id="skills_web_window" class="section_skills_window hide">
+            <i id="close_skills_web" class="close_button_skills far fa-times-circle section_skills_window_buttons"></i>
+        </div>
+
+
+    </section>
+
+    <section id="section_letswork" class="section_letswork hide">
+        <h1 id="letswork_text" class="sign letswork_text " data-aos="zoom-in">LETS WORK TOGETHER!</h1>
+    </section>
+
+    <section id="section_form" class="section_form hide">
+
+        <div class="section_form_background">
+
+            <form id="form" class="section_form_form" action="mailto:fabliin@hotmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name" class="section_form_form_input"><br>
+                E-mail:<br>
+                <input type="text" name="mail" class="section_form_form_input"><br>
+                Subject:<br>
+                <input type="text" name="mail" class="section_form_form_input"><br>
+                Message:<br>
+                <textarea name="message" cols="30" rows="10" form="form"></textarea><br><br>
+                <input class="form_button" type="submit" value="Send">
+
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="hide">
+        <!-- <div class="footer_anchers">
+            <a href="">#mex I can</a>
+            <a href="">lorem</a>
+            <a href="">lorem</a>
+        </div> -->
+        <div class="footer_text">
+            <p>Pablo Sanchez ©2020 </p>
+        </div>
+        <div class="footer_social">
+            <a target="_Blank" href="https://www.linkedin.com/in/pablo-sanchez-fragoso-b7928117a/"><img src="src/images/linked.png" alt=""></a>
+            <a target="_Blank" href="https://github.com/FaBliiN/"><img src="src/images/github.png" alt=""></a>
+            <a target="_Blank" href="https://www.instagram.com/fabliin/"><img src="src/images/instagram.png" alt=""></a>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="src/js/script.js"></script>
+
+</html>
